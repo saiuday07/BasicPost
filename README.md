@@ -24,3 +24,28 @@ To run this project locally on your machine, follow these steps:
    ```bash
    git clone [https://github.com/yourusername/BasicPosts.git](https://github.com/yourusername/BasicPosts.git)
    cd BasicPosts
+2. **Create a virtual environment:**
+   ```bash
+   python -m venv venv
+   ```
+
+3. **Activate the virtual environment:**
+   * **Windows:** `venv\Scripts\activate`
+   * **Mac/Linux:** `source venv/bin/activate`
+
+4. **Install dependencies:**
+   ```bash
+   pip install django 
+   ```
+
+5. **Run database migrations:**
+   ```bash
+   python manage.py migrate
+   ```
+
+6. **Start the development server:**
+   ```bash
+   python manage.py runserver
+   ```
+
+7. Open your web browser and navigate to `http://127.0.0.1:8000/`
